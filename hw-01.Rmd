@@ -1,7 +1,7 @@
 ---
 title: "Homework 01 - Pet Names"
-author: "Insert your name here"
-date: "Insert date here"
+author: "Annie Hou"
+date: "01/25/2024"
 output: html_document
 ---
 
