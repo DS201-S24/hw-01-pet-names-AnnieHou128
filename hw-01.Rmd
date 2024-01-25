@@ -24,10 +24,11 @@ According to the data dictionary, there are 7 variables for each pet.
 
 ### Exercise 3
 
-Remove this text, and add your answer for Exercise 3 here.
+According to the code below, the three most common pet names in Seattle are Lucy, Charlie, and Luna.
 
 ```{r most-common-names}
-# remove this comment and add the code for Exercise 3 here
+seattlepets %>%
+  count(animal_name, sort = TRUE)
 ```
 
 ### Exercise 4
