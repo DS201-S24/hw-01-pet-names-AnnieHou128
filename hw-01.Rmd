@@ -46,8 +46,10 @@ seattlepets %>%
 
 ### Exercise 5
 
-Remove this text, and add your answer for Exercise 5 here.
+The names above the line y=x are more common for cats than dogs.
 
 ### Exercise 6
 
-Remove this text, and add your answer for Exercise 6 here.
+The relationship (the linear correlation) between the two variables (proportion of cats with a given name and proportion of dogs with a given name) is positive, because if we fit a line to the data points, the line has a positive slope.
+
+It means that when proportion of cats with a given name increases, the proportion of dogs with a given name also tend to increase. If the name is very common in cats, then this name is also very likely to be common in dogs.
