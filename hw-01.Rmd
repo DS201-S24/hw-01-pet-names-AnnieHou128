@@ -33,10 +33,15 @@ seattlepets %>%
 
 ### Exercise 4
 
-Remove this text, and add your answer for Exercise 4 here.
+Now, we arrange the most common cat and dog names in Seattle by species first, and then n.
 
 ```{r most-common-cat-dog-names}
-# remove this comment and add the code for Exercise 4 here
+seattlepets %>% 
+  group_by(species) %>%
+  count(animal_name, sort = TRUE) %>% 
+  slice_max(n, n = 5) %>%
+  arrange(species,desc(n))
+
 ```
 
 ### Exercise 5
